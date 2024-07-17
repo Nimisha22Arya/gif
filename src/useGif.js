@@ -5,7 +5,7 @@ import axios from 'axios';
 const useGif = (tag) => {
 
     const url='https://api.giphy.com/v1/gifs/random?api_key=Za3QJ53URAIoCvGtudAY8Hou008DBHMC';
-    const[gif,setGif]=useState('');
+        const[gif,setGif]=useState('');
 
     const response = async(tag) => {
         
